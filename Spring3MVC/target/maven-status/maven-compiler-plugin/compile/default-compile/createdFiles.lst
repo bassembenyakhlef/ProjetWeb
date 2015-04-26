@@ -1,1 +1,6 @@
-com\mkyong\common\controller\XMLController.class
+univ\rouen\benyakhlef\model\Cv.class
+univ\rouen\benyakhlef\model\CvList.class
+univ\rouen\benyakhlef\controller\XMLController.class
+univ\rouen\benyakhlef\model\Experience_pro.class
+univ\rouen\benyakhlef\model\Formation.class
+univ\rouen\benyakhlef\model\Langue.class

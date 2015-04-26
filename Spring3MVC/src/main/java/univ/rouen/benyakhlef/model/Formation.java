@@ -1,4 +1,4 @@
-package com.mkyong.common.model;
+package univ.rouen.benyakhlef.model;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 

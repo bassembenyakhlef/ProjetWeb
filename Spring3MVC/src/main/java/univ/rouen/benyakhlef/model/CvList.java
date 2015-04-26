@@ -1,4 +1,4 @@
-package com.mkyong.common.model;
+package univ.rouen.benyakhlef.model;
 
 import java.util.ArrayList;
 

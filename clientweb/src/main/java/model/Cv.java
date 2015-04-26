@@ -1,4 +1,4 @@
-package com.mkyong.common.model;
+package model;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -10,12 +10,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "cv")
 public class Cv {
 
-	String name;
-	String prenom;
-	String adresse;
-    int age;
-    int telephone;
-    int id;
+	private String name;
+	private String prenom;
+
+
+    private String adresse;
+    private int age;
+    private int telephone;
+    private int id;
     ArrayList<Experience_pro> exp;
     ArrayList<Langue>langues;
    ArrayList<Formation>formations;
@@ -41,6 +43,20 @@ public class Cv {
 		this.langues = langues;
 		this.formations=formations;
 	}
+    @Override
+    public String toString() {
+        return "Cv{" +
+                "name='" + name + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", age=" + age +
+                ", telephone=" + telephone +
+                ", id=" + id +
+                ", exp=" + exp +
+                ", langues=" + langues +
+                ", formations=" + formations +
+                '}';
+    }
 
     public ArrayList<Formation> getFormations() {
 		return formations;

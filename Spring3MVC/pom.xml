@@ -58,7 +58,7 @@
         <artifactId>heroku-maven-plugin</artifactId>
         <version>0.3.6</version>
         <configuration>
-          <appName>projet</appName>
+          <appName>projetw</appName>
         </configuration>
       </plugin>
 			<plugin>

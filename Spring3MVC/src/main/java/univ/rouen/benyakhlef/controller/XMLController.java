@@ -1,13 +1,13 @@
-package com.mkyong.common.controller;
+package univ.rouen.benyakhlef.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import com.mkyong.common.model.Cv;
-import com.mkyong.common.model.CvList;
-import com.mkyong.common.model.Experience_pro;
-import com.mkyong.common.model.Formation;
-import com.mkyong.common.model.Langue;
+import univ.rouen.benyakhlef.model.Cv;
+import univ.rouen.benyakhlef.model.CvList;
+import univ.rouen.benyakhlef.model.Experience_pro;
+import univ.rouen.benyakhlef.model.Formation;
+import univ.rouen.benyakhlef.model.Langue;
 
 import java.util.ArrayList;
 
